@@ -1,0 +1,90 @@
+/* General body style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: hwb(200 96% 2%);
+  margin: 0;
+  padding: 0;
+}
+
+/* LOGIN SECTION */
+.login-container {
+  width: 300px;
+  margin: 150px auto;
+  padding: 20px;
+  background: #adcbdf;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px lab(82.05% 0 -0.01);
+}
+
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.login-container button {
+  width: 95%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+/* CHAT SECTION */
+.chat-container {
+  width: 500px;
+  margin: 50px auto;
+  background: lab(100% 0.01 -0.01);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #cccccc;
+}
+
+.chat-container header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  background:#adcbdf;
+  margin-bottom: 10px;
+}
+
+.chat-box p {
+  margin: 5px 0;
+}
+
+.chat-input {
+  display: flex;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.chat-input button:hover {
+  background-color: #45a049;
+}

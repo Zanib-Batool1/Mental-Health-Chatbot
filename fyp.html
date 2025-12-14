@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Chatbot</title>
+  <link rel="stylesheet" href="fyp.css">
+</head>
+<body>
+
+  <!-- LOGIN SECTION -->
+  <div id="login-container" class="login-container">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Enter Username">
+    <input type="password" id="password" placeholder="Enter Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- CHATBOT SECTION (HIDDEN INITIALLY) -->
+  <div id="chat-container" class="chat-container" style="display:none;">
+    <header>
+      <h1>Mental Health Chatbot</h1>
+      <p id="welcome-msg"></p>
+    </header>
+
+    <div id="chat-box" class="chat-box">
+      <div class="bot-message">
+        <div class="message">
+          Hello! I am MindCare. How are you feeling today?
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="fyp.js"></script>
+</body>
+</html>
